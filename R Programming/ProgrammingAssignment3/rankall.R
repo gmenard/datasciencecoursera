@@ -23,8 +23,8 @@ rankall <- function(outcome, num = "best") {
   data <- data[!is.na(data[,outcomeColName]),]
   
   # Set sorter according to rank
+  sortDecreasing = FALSE
   if(num == "best") {
-    sortDecreasing = FALSE
     num = 1
   }
   else if(num == "worst") {
