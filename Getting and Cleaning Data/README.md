@@ -20,5 +20,11 @@ The script is called 'run_analysis.R', it does the following:
 - Appropriately labels the data set with descriptive variable names.
 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+
+## Output
+The R script run_analysis.R will process the data and will create two text files:
+- "tidy_dataset.txt" : merges training and test data sets.
+- "tidy_dataset_average.txt" : calculates the average of each variable for each activity and each subject.
+
 ## Required R Packages
 The R packages 'plyr' and 'reshape2' are required to run this script. 
